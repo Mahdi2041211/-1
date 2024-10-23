@@ -1,0 +1,7 @@
+B:\المعهد\السنة التانية\خوارزميات\Task2\bin\Debug\Task2.exe.config
+B:\المعهد\السنة التانية\خوارزميات\Task2\bin\Debug\Task2.exe
+B:\المعهد\السنة التانية\خوارزميات\Task2\bin\Debug\Task2.pdb
+B:\المعهد\السنة التانية\خوارزميات\Task2\obj\Debug\Task2.csproj.AssemblyReference.cache
+B:\المعهد\السنة التانية\خوارزميات\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
+B:\المعهد\السنة التانية\خوارزميات\Task2\obj\Debug\Task2.exe
+B:\المعهد\السنة التانية\خوارزميات\Task2\obj\Debug\Task2.pdb
