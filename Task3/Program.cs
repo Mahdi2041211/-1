@@ -5,7 +5,7 @@ namespace Task3
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {h
             Console.WriteLine("our linked list now is <string> and this app is to show you how does this list work.");
             LinkedList<string> list = new LinkedList<string>();
             bool run = true;
