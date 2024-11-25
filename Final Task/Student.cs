@@ -17,7 +17,21 @@ namespace Final_Task
         public string Name { get; set; }
         public int Mark1 { get; set; } // علامة الاختبار الأول
         public int Mark2 { get; set; } // علامة الاختبار الثاني
-        public Estimation Estimation { get; set; }
+        public Estimation Estimation
+        {
+            get
+            {
+                if (FinalMark <= 100 && FinalMark > 80)
+                    return Estimation.Excellent;
+                else if (FinalMark <= 80 && FinalMark > 60)
+                    return Estimation.VeryGood;
+                else if (FinalMark <= 60 && FinalMark > 40)
+                    return Estimation.Good;
+                else if (FinalMark <= 40 && FinalMark >= 0)
+                    return Estimation.Fail;
+                else throw new IndexOutOfRangeException("the final mark should be between 0 and 100");
+            }
+        }
         public int FinalMark { get { return (Mark2 + Mark1) / 2; } } // أحسن ما أعملها بميثود
 
         public Student() { id = nextID++; }

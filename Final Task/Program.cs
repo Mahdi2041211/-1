@@ -29,16 +29,6 @@ namespace Final_Task
                     student.Mark1 = int.Parse(Console.ReadLine());
                     Console.WriteLine("enter mark2:");
                     student.Mark2 = int.Parse(Console.ReadLine());
-                    Console.WriteLine("enter the Estimation (it should be one the this:)\n" +
-                        "Fail,\r\nGood,\r\nVeryGood,\r\nExcellent");
-                    chose = Console.ReadLine();
-                    do
-                    {
-                        if ("Fail" == chose) student.Estimation = Estimation.Fail;
-                        else if ("Good" == chose) student.Estimation = Estimation.Good;
-                        else if ("VeryGood" == chose) student.Estimation = Estimation.VeryGood;
-                        else if ("Excellent" == chose) student.Estimation = Estimation.Excellent;
-                    } while (!(chose == "Fail" || chose == "Good" || chose == "VeryGood" || chose == "Excellent"));
                     Console.Clear();
                     students.Add(student);
                     Console.WriteLine("the student added");
